@@ -177,6 +177,7 @@ function myformatTinyMCE($in)
 add_filter('tiny_mce_before_init', 'myformatTinyMCE' );
 
 remove_filter("the_content", "wptexturize");
+remove_filter('the_content', 'wpautop');
 remove_filter("the_content", "convert_chars");
 
 	

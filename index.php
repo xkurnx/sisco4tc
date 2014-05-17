@@ -10,13 +10,13 @@
     <div class="clearfix colelem" id="pu111"><!-- group -->
      <a class="nonblock nontext anim_swing shadow browser_width mse_pre_init" id="u111" href="index.html#register"><!-- simple frame --></a>
      <div class="clip_frame mse_pre_init" id="u95"><!-- image -->
-      <img class="block" id="u95_img" src="images/800px-cisco_logosvg.png" alt="" width="71" height="40"/>
+      <img class="block" id="u95_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/800px-cisco_logosvg.png" alt="" width="71" height="40"/>
      </div>
      <div class="clearfix mse_pre_init" id="u83-4"><!-- content -->
       <p>Developer&nbsp; Challenge</p>
      </div>
      <a class="nonblock nontext anim_swing clearfix mse_pre_init" id="u76-4" href="<?php echo $home_url;?>#home"><!-- content --><p>Home</p></a>
-     <a class="nonblock nontext anim_swing clearfix mse_pre_init" id="u82-4" href="index.html#challenges"><!-- content --><p>Challenges</p></a>
+     <a class="nonblock nontext anim_swing clearfix mse_pre_init" id="u82-4" href="<?php echo $home_url;?>#challenges"><!-- content --><p>Challenges</p></a>
      <a class="nonblock nontext anim_swing clearfix mse_pre_init" id="u78-4" href="index.html#register"><!-- content --><p>Register</p></a>
      <a class="nonblock nontext anim_swing clearfix mse_pre_init" id="u81-4" href="index.html#faq"><!-- content --><p>FAQ</p></a>
     </div>
@@ -38,7 +38,8 @@
      <a class="nonblock nontext anim_swing colelem" id="u357" href="index.html#faq" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.7071,M12=0.7071,M21=-0.7071,M22=-0.7071,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-2" data-mu-ie-matrix-dy="-3"><!-- simple frame --></a>
     </div>
     <div class="clearfix colelem" id="pu90"><!-- group -->
-     <div class="museBGSize browser_width grpelem" id="u90"><!-- group -->
+	
+	<div class="museBGSize browser_width grpelem" id="u90"><!-- group -->
       <div class="clearfix" id="u90_align_to_page">
        <div class="clearfix grpelem" id="u108-10"><!-- content -->
         <p>Welcome to the Cisco Developer Challenge Series!</p>
@@ -56,23 +57,25 @@
        </div>
       </div>
      </div>
-     <a class="anchor_item grpelem" id="challenges"></a>
+    <a class="anchor_item grpelem" id="challenges"></a>
+	
+	
     </div>
     <div class="clearfix colelem" id="pu176"><!-- group -->
      <div class="clip_frame grpelem" id="u176"><!-- image -->
-      <img class="block" id="u176_img" src="images/untitled-1.jpg" alt="" width="81" height="80"/>
+      <img class="block" id="u176_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/untitled-1.jpg" alt="" width="81" height="80"/>
      </div>
      <div class="clearfix grpelem" id="u182-4"><!-- content -->
       <p>Jabber Challenge</p>
      </div>
      <div class="clip_frame grpelem" id="u171"><!-- image -->
-      <img class="block" id="u171_img" src="images/untitled2.jpg" alt="" width="80" height="80"/>
+      <img class="block" id="u171_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/untitled2.jpg" alt="" width="80" height="80"/>
      </div>
      <div class="clearfix grpelem" id="u184-4"><!-- content -->
       <p>Mobility Challenge</p>
      </div>
      <div class="clip_frame grpelem" id="u166"><!-- image -->
-      <img class="block" id="u166_img" src="images/untitled3.jpg" alt="" width="80" height="80"/>
+      <img class="block" id="u166_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/untitled3.jpg" alt="" width="80" height="80"/>
      </div>
      <div class="clearfix grpelem" id="u186-4"><!-- content -->
       <p>Cisco On Demand Challenge</p>
@@ -80,11 +83,11 @@
     </div>
     <div class="clearfix colelem" id="pu127"><!-- column -->
      <div class="position_content" id="pu127_position_content">
-      <a class="nonblock nontext clip_frame mse_pre_init" id="u127" href="https://www.facebook.com/sharer/sharer.php?u=http://www.topcoder.com/cisco/" target="_blank" title="Share on Facebook"><!-- image --><img class="block" id="u127_img" src="images/fb-f-logo__blue_50.png" alt="" width="41" height="41"/></a>
-      <a class="nonblock nontext clip_frame mse_pre_init" id="u138" href="https://twitter.com/home?status=http://www.topcoder.com/cisco/" target="_blank" title="Share on Twitter"><!-- image --><img class="block" id="u138_img" src="images/twitter_logo_blue.jpg" alt="" width="41" height="41"/></a>
+      <a class="nonblock nontext clip_frame mse_pre_init" id="u127" href="https://www.facebook.com/sharer/sharer.php?u=http://www.topcoder.com/cisco/" target="_blank" title="Share on Facebook"><!-- image --><img class="block" id="u127_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/fb-f-logo__blue_50.png" alt="" width="41" height="41"/></a>
+      <a class="nonblock nontext clip_frame mse_pre_init" id="u138" href="https://twitter.com/home?status=http://www.topcoder.com/cisco/" target="_blank" title="Share on Twitter"><!-- image --><img class="block" id="u138_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/twitter_logo_blue.jpg" alt="" width="41" height="41"/></a>
      </div>
     </div>
-    <a class="nonblock nontext clip_frame mse_pre_init" id="u144" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.topcoder.com/cisco/&amp;title=&amp;summary=&amp;source=" target="_blank" title="Share on LinkedIn"><!-- image --><img class="block" id="u144_img" src="images/inbug-60px-tm%20copy.png" alt="" width="41" height="41"/></a>
+    <a class="nonblock nontext clip_frame mse_pre_init" id="u144" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.topcoder.com/cisco/&amp;title=&amp;summary=&amp;source=" target="_blank" title="Share on LinkedIn"><!-- image --><img class="block" id="u144_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/inbug-60px-tm%20copy.png" alt="" width="41" height="41"/></a>
     <div class="clearfix colelem" id="pu187-7"><!-- group -->
      <div class="ts-Default-Link-Style--onwhite clearfix grpelem" id="u187-7"><!-- content -->
       <p>With the <a class="nonblock" href="https://developer.cisco.com/site/collaboration/jabber/websdk/overview/" target="_blank" title="Jabber SDK">Jabber SDK for Web</a>,&nbsp; you can rapidly build Cisco Unified Communications (UC) capabilities of voice, video, instant messaging, presence, voice messaging and conferencing into your web applications and portals using Cisco Jabber technology. Create a powerful unified communications experience with all the functionality seamlessly accessible anywhere, any time.</p>
@@ -98,11 +101,11 @@
     </div>
     <div class="clearfix colelem" id="pu149"><!-- column -->
      <div class="position_content" id="pu149_position_content">
-      <a class="nonblock nontext clip_frame mse_pre_init" id="u149" href="https://plus.google.com/share?url=http://www.topcoder.com/cisco/" target="_blank" title="Share on Google+"><!-- image --><img class="block" id="u149_img" src="images/btn_g-normal.png" alt="" width="50" height="50"/></a>
+      <a class="nonblock nontext clip_frame mse_pre_init" id="u149" href="https://plus.google.com/share?url=http://www.topcoder.com/cisco/" target="_blank" title="Share on Google+"><!-- image --><img class="block" id="u149_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/btn_g-normal.png" alt="" width="50" height="50"/></a>
       <div class="clearfix mse_pre_init" id="u165"><!-- group -->
        <div class="pointer_cursor clearfix grpelem" id="u164" title="Share via Email"><!-- group -->
         <a class="block" target="_blank" href="http://%3Ca%20class=%22email_link%22%20target=%22_blank%22%20href=%22mailto:?subject=&amp;body=%22%3EINSERT%20LINK%20CONTENTS%20HERE%3C/a%3E"></a>
-        <a class="nonblock nontext clip_frame grpelem" id="u159" href="http://%3Ca%20class=%22email_link%22%20target=%22_blank%22%20href=%22mailto:?subject=&amp;body=%22%3EINSERT%20LINK%20CONTENTS%20HERE%3C/a%3E" target="_blank" title="Share via Email"><!-- image --><img class="block" id="u159_img" src="images/email_0104_48.png" alt="" width="36" height="36"/></a>
+        <a class="nonblock nontext clip_frame grpelem" id="u159" href="http://%3Ca%20class=%22email_link%22%20target=%22_blank%22%20href=%22mailto:?subject=&amp;body=%22%3EINSERT%20LINK%20CONTENTS%20HERE%3C/a%3E" target="_blank" title="Share via Email"><!-- image --><img class="block" id="u159_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/email_0104_48.png" alt="" width="36" height="36"/></a>
        </div>
       </div>
      </div>
@@ -257,7 +260,7 @@
     </div>
     <div class="clearfix colelem" id="pu154"><!-- group -->
      <div class="clip_frame grpelem" id="u154"><!-- image -->
-      <img class="block" id="u154_img" src="images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
+      <img class="block" id="u154_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
      </div>
      <div class="rounded-corners clearfix grpelem" id="u367"><!-- group -->
       <div class="clearfix grpelem" id="u368-4"><!-- content -->
@@ -265,7 +268,7 @@
       </div>
      </div>
      <div class="clip_frame grpelem" id="u659"><!-- image -->
-      <img class="block" id="u659_img" src="images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
+      <img class="block" id="u659_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
      </div>
      <div class="rounded-corners clearfix grpelem" id="u662"><!-- group -->
       <div class="ts-Default-Link-Style--onwhite clearfix grpelem" id="u663-4"><!-- content -->
@@ -283,7 +286,7 @@
     </div>
     <div class="clearfix colelem" id="pu611"><!-- group -->
      <div class="clip_frame grpelem" id="u611"><!-- image -->
-      <img class="block" id="u611_img" src="images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
+      <img class="block" id="u611_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
      </div>
      <div class="rounded-corners clearfix grpelem" id="u614"><!-- group -->
       <div class="clearfix grpelem" id="u615-4"><!-- content -->
@@ -291,7 +294,7 @@
       </div>
      </div>
      <div class="clip_frame grpelem" id="u697"><!-- image -->
-      <img class="block" id="u697_img" src="images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
+      <img class="block" id="u697_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
      </div>
      <div class="rounded-corners clearfix grpelem" id="u695"><!-- group -->
       <div class="clearfix grpelem" id="u696-4"><!-- content -->
@@ -309,7 +312,7 @@
     </div>
     <div class="clearfix colelem" id="pu623"><!-- group -->
      <div class="clip_frame grpelem" id="u623"><!-- image -->
-      <img class="block" id="u623_img" src="images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
+      <img class="block" id="u623_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
      </div>
      <div class="rounded-corners clearfix grpelem" id="u626"><!-- group -->
       <div class="clearfix grpelem" id="u627-4"><!-- content -->
@@ -317,7 +320,7 @@
       </div>
      </div>
      <div class="clip_frame grpelem" id="u709"><!-- image -->
-      <img class="block" id="u709_img" src="images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
+      <img class="block" id="u709_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
      </div>
      <div class="rounded-corners clearfix grpelem" id="u707"><!-- group -->
       <div class="ts-Default-Link-Style--onwhite clearfix grpelem" id="u712-4"><!-- content -->
@@ -335,7 +338,7 @@
     </div>
     <div class="clearfix colelem" id="pu636"><!-- group -->
      <div class="clip_frame grpelem" id="u636"><!-- image -->
-      <img class="block" id="u636_img" src="images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
+      <img class="block" id="u636_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
      </div>
      <div class="rounded-corners clearfix grpelem" id="u639"><!-- group -->
       <div class="clearfix grpelem" id="u640-4"><!-- content -->
@@ -343,7 +346,7 @@
       </div>
      </div>
      <div class="clip_frame grpelem" id="u721"><!-- image -->
-      <img class="block" id="u721_img" src="images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
+      <img class="block" id="u721_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
      </div>
      <div class="rounded-corners clearfix grpelem" id="u719"><!-- group -->
       <div class="ts-Default-Link-Style--onwhite clearfix grpelem" id="u724-4"><!-- content -->
@@ -361,7 +364,7 @@
     </div>
     <div class="clearfix colelem" id="pu648"><!-- group -->
      <div class="clip_frame grpelem" id="u648"><!-- image -->
-      <img class="block" id="u648_img" src="images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
+      <img class="block" id="u648_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
      </div>
      <div class="rounded-corners clearfix grpelem" id="u651"><!-- group -->
       <div class="clearfix grpelem" id="u652-4"><!-- content -->
@@ -369,7 +372,7 @@
       </div>
      </div>
      <div class="clip_frame grpelem" id="u732"><!-- image -->
-      <img class="block" id="u732_img" src="images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
+      <img class="block" id="u732_img" src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/alert_unknown_2007_128.png" alt="" width="38" height="38"/>
      </div>
      <div class="rounded-corners clearfix grpelem" id="u735"><!-- group -->
       <div class="ts-Default-Link-Style--onwhite clearfix grpelem" id="u736-4"><!-- content -->
@@ -394,44 +397,6 @@
     </div>
    </div>
   </div>
-  <!-- JS includes -->
-  <script type="text/javascript">
-   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script type="text/javascript">
-   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script src="scripts/museutils.js?3880880085" type="text/javascript"></script>
-  <script src="scripts/jquery.scrolleffects.js?56249048" type="text/javascript"></script>
-  <script src="scripts/jquery.tobrowserwidth.js?152985095" type="text/javascript"></script>
-  <script src="scripts/jquery.musepolyfill.bgsize.js?3899542795" type="text/javascript"></script>
-  <script src="scripts/jquery.watch.js?4199601726" type="text/javascript"></script>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   $(document).ready(function() { try {
-Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
-$('.browser_width').toBrowserWidth();/* browser width elements */
-Muse.Utils.prepHyperlinks(true);/* body */
-$('#u111').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[null,0]},{"in":[0,Infinity],"speed":[null,0]}]);/* scroll effect */
-$('#u95').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[1,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u83-4').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[1,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u76-4').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[1,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u82-4').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[1,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u78-4').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[1,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u81-4').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[1,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u339').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u350').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u343').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u356').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u127').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u138').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u144').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u149').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u165').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
-Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
-Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
-} catch(e) { Muse.Assert.fail('Error calling selector function:' + e); }});
-</script>
-   </body>
-</html>
+ <?php
+ get_footer();
+ ?>
