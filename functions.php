@@ -162,6 +162,8 @@ function myformatTinyMCE($in)
  $in['paste_strip_class_attributes']='none';
  $in['paste_text_use_dialog']=true;
  $in['wpeditimage_disable_captions']=true;
+ $in['valid_elements'] = "*[*]";
+ $in['extended_valid_elements'] = "*[*]";
  $in['plugins']='tabfocus,paste,media,fullscreen,wordpress,wpeditimage,wpgallery,wplink,wpdialogs,wpfullscreen';
  $in['content_css']=  get_template_directory_uri() . '/css/index.css'.',' . get_template_directory_uri() . '/css/site_global.css';
  $in['wpautop']=false;
@@ -173,6 +175,9 @@ function myformatTinyMCE($in)
  return $in;
 }
 add_filter('tiny_mce_before_init', 'myformatTinyMCE' );
+
+remove_filter("the_content", "wptexturize");
+remove_filter("the_content", "convert_chars");
 
 	
 ;?>
