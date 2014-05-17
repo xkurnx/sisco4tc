@@ -5,6 +5,20 @@ Template Name: Really from Content
 ?>
 
 <?php
+// Globalize $post
+global $post;
+// Test for password-protected page
+// Returns true if post is password-protected
+// and if the password doesn't match cookie
+if ( post_password_required( $post ) ) {
+    echo get_the_password_form();
+	exit;
+} else {
+    // Page isn't password-protected
+ }   ?>
+
+
+<?php
 	get_header();	
 	$home = get_page_by_path('home');
 	$home_url = get_permalink ( $home->ID );
@@ -44,8 +58,9 @@ Template Name: Really from Content
      <a class="nonblock nontext anim_swing colelem" id="u357" href="index.html#faq" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.7071,M12=0.7071,M21=-0.7071,M22=-0.7071,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-2" data-mu-ie-matrix-dy="-3"><!-- simple frame --></a>
     </div>
 	<!-- content / banner start -->
-	 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-	  <?php the_content(); ?>
+	 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); 
+	 the_content();?>
+	 
 	 <?php endwhile; endif; ?>
 	<!-- ./ content / banner start -->
  
